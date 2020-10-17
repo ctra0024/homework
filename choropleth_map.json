@@ -25,7 +25,7 @@
       "field": "pc_of_total_accidents",
       "type": "quantitative",
       "scale": {"scheme": "browns"},
-      "title": "% Proportion of Total Fatal Accidents"
+      "title": "% Proportion"
     },
     "tooltip": [
       {
