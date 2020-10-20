@@ -9,11 +9,17 @@
 </head>
 <body>
 
-<div id="vis"></div>
+<div id="vis1"></div>
+<div id="vis2"></div>
 
 <script type="text/javascript">
-  var spec = "https://ctra0024.github.io/homework/choropleth_map.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  var spec1 = "https://ctra0024.github.io/homework/filter_map.json";
+  vegaEmbed('#vis1', spec1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec2 = "https://ctra0024.github.io/homework/vis1.json";
+  vegaEmbed('#vis2', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
