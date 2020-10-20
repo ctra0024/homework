@@ -10,7 +10,7 @@
         "input": "range",
         "min": 0,
         "max": 2.94,
-        "step": 0.5,
+        "step": 0.2,
         "name": "Minimum % of Total Fatal Accidents"
       }
     }
